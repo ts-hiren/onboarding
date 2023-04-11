@@ -1,0 +1,64 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css);
+
+body {
+  background: linear-gradient(180deg, #262843 0%, #131523 100%);
+  color: #fff;
+}
+
+.bordered-card-container {
+  max-width: 450px !important;
+}
+
+.bordered-card {
+  border: 1px solid rgba(130, 136, 176, 0.42);
+  background: linear-gradient(
+    177.43deg,
+    rgba(62, 66, 91, 0.75) 2.14%,
+    rgba(41, 44, 61, 0.15) 97.86%
+  );
+}
+
+.react-dropdown-select-dropdown{
+ background: linear-gradient(180deg, rgba(38, 41, 67, 0.5) 0%, rgba(38, 41, 67, 0.2) 100%) !important;
+ border-radius: 16px !important;
+ border-color:rgba(130, 136, 176, 0.42) !important;
+ width: 370px !important;
+}
+
+.dropdown-search-input {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-search-input input {
+  margin: 10px 10px 0;
+  line-height: 30px;
+  border: 1px solid #676FA5;
+  color: #E8EAFB;
+}
+.dropdown-search-input input:focus{
+  border: 1px solid #676FA5 !important;
+}
+.dropdown-search-input input:focus {
+  outline: none;
+  border: 1px solid deepskyblue;
+}
+.dropdown-search-options {
+  overflow: auto;
+  min-height: 10px;
+  max-height: 200px;
+}
+
+.dropdown-search-inner-options {
+  margin: 10px;
+  align-items: baseline;
+  border-bottom: 1px solid #3A3E64;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: "textfield";
+}
